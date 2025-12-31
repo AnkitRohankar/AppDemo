@@ -22,14 +22,14 @@
     <dependency>
         <groupId>org.seleniumhq.selenium</groupId>
         <artifactId>selenium-java</artifactId>
-        <version>4.9.1</version> <!-- या किंवा नवीन version वापरा -->
+        <version>4.9.1</version> 
     </dependency>
 
     <!-- Appium -->
   <dependency>
     <groupId>io.appium</groupId>
     <artifactId>java-client</artifactId>
-    <version>8.5.1</version> <!-- किंवा त्यापेक्षा नवीन आवृत्ती -->
+    <version>8.5.1</version> 
 </dependency>
 
     
@@ -90,3 +90,4 @@
     </pluginManagement>
   </build>
 </project>
+
