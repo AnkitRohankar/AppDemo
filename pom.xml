@@ -22,14 +22,14 @@
     <dependency>
         <groupId>org.seleniumhq.selenium</groupId>
         <artifactId>selenium-java</artifactId>
-        <version>4.9.1</version> <!-- या किंवा नवीन version वापरा -->
+        <version>4.9.1</version> 
     </dependency>
 
     <!-- Appium -->
   <dependency>
     <groupId>io.appium</groupId>
     <artifactId>java-client</artifactId>
-    <version>8.5.1</version> <!-- किंवा त्यापेक्षा नवीन आवृत्ती -->
+    <version>8.5.1</version> 
 </dependency>
 
     
@@ -39,6 +39,14 @@
     <artifactId>testng</artifactId>
     <version>6.9.10</version>
     <scope>test</scope>
+</dependency>
+
+
+<!-- https://mvnrepository.com/artifact/com.mysql/mysql-connector-j -->
+<dependency>
+    <groupId>com.mysql</groupId>
+    <artifactId>mysql-connector-j</artifactId>
+    <version>8.3.0</version>
 </dependency>
 
 

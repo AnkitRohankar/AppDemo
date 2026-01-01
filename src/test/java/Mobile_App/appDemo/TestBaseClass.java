@@ -45,7 +45,7 @@ public AndroidDriver driver ;
 	{
 		
 		driver.quit();
-        System.out.println("browser is closed");
+        System.out.println("App is closed");
         
 
         

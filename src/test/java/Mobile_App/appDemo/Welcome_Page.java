@@ -63,7 +63,7 @@ public class Welcome_Page extends TestBaseClass {
 
     WebElement LoginText = driver.findElement(By.id("com.satyukt.myfarmapp:id/textView10"));
     String actualLoginText = LoginText.getText();
-    String expectedLoginText = "Logint";
+    String expectedLoginText = "Login";
     
     Assert.assertEquals(actualLoginText, expectedLoginText);
 		
