@@ -6,9 +6,9 @@ import org.openqa.selenium.WebElement;
 
 public class DBUtils {
 
-    static String DB_URL =  "jdbc:mysql://3.14.103.172:3306/dummy_api";//"jdbc:mysql://localhost:3306/your_db_name";
-    static String DB_USER = "readuser";// "db_username";
-    static String DB_PASS = "Secret@123";//"db_password";
+    static String DB_URL =  "jdbc:mysql://localhost:3306/your_db_name";
+    static String DB_USER = "db_username";
+    static String DB_PASS = "db_password";
    
 
     public static boolean isMobilePresent(String mobileNumberTextbox) {
@@ -30,3 +30,4 @@ public class DBUtils {
         return status;
     }
 }
+
